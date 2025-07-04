@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons&amp;family=Material+Icons+Outlined&amp;family=Material+Icons+Round&amp;family=Material+Icons+Sharp&amp;family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Mini Project</title>
+</head>
+<body>
+
+  <header class="header-container">
+    <img class="logo-revou" src="img/logo-revou-removebg-preview.png" alt="RevoU">
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#profile">Our Profile</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#message">Message Us</a>
+    </nav>
+  </header>
+
+    <!-- Hero Section -->
+    <section class="section-container" id="home">
+        <img class="logo-hero" src="./img/revou-hero.png" alt="RevoU">
+        <div class="section-title">
+            <h1 class="heading">Welcome to RevoU</h1>
+            <p class="paragraph">
+                RevoU is the best place to start or advance a career in tech. 
+                We offer intensive bootcamp programs that focus on real-world practices, ranging from Data Analyst, Software Engineering, Digital Marketing, to Product Management. With a curriculum developed by industry experts and the support of professional mentors, RevoU helps you become a work-ready digital talent.
+                Join thousands of our alumni who have successfully pursued careers in leading companies in Indonesia and Southeast Asia.
+            </p>
+            <a href="#portfolio" class="btn-project">
+                View Our Portfolio
+                <span class="material-icons-outlined">arrow_downward</span>
+            </a>
+        </div>
+    </section>
+    <!-- Hero Section -->
+
+    <!-- Our Profile Section -->
+    <section class="section-about-container" id="profile">
+        <div class="section-title-about">
+            <h1 class="heading-about">Our Profile RevoU</h1>
+            <p class="paragraph-about">
+            RevoU is an edtech company that focuses on empowering individuals through intensive training programs or bootcamps in the technology and digital fields.
+            RevoU offers a variety of high-quality programs such as Data Analytics, Digital Marketing, Software Engineering, Business Intelligence, and Product Management designed to prepare participants for the challenges of the modern workplace.
+            With its hands-on learning approach, mentoring by industry practitioners, and strong community support, RevoU aims to help anyone - from any background - to start or transition into a successful career in the digital industry.
+            RevoU's commitment is to create access to education that is inclusive, relevant to industry needs, and has a real impact on the lives of its participants.
+            </p>
+
+        <div class="logo-about-container">
+            <img class="logo-about" src="./img/revou-hero.png" alt="RevoU">
+        </div>
+    </section>
+    <!-- Our Profile Section -->
+
+    <!-- My Project Section -->
+    <section class="section-projects-container" id="portfolio">
+      
+        <h2>MY PORTFOLIO</h2>
+        <div class="card-info-projects">
+        <p>
+        This project is the result of my learning process in building a simple e-commerce website. 
+        The interface includes landing page, product category, product catalog, product detail page, shopping cart, and checkout feature directly to WhatsApp.
+        I developed this website using HTML, CSS, and JavaScript, with a focus on user experience, responsive design, and neat code structure. 
+        This project is one proof of my development as a beginner frontend web developer who continues to learn and grow.
+        </p>
+        </div>
+        <div class="card-projects-container" id="projectCards"></div>
+    </section>
+    <!-- My Project Section -->
+
+<!-- Message Us Form -->
+<section id="message" class="message-form-container">
+    <h2>Message Us</h2>
+  <div class="card-form-container">
+    <form id="contactForm" class="card-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="@revoU" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="@revou@gmail.com" name="email" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" placeholder="0812xxxxx" name="phone" required />
+
+      <label for="messageContent">Message</label>
+      <textarea id="messageContent" rows="5" name="messageContent" placeholder="write a message" required></textarea>
+
+      <button type="submit" class="btn-form">Submit</button>
+    </form>
+    <div id="submittedData" class="result"></div>
+  </div>
+
+    <div id="submittedData" class="result"></div>
+  </section>
+
+
+<!-- Footer -->
+ <footer class="footer-container">
+        <div class="footer-left">
+             <a class="logo-footer" href="./index.html">@RevoU</a>
+            <p>&copy; 2025 Create By RevoU. All rights reserved.</p>
+        </div>
+        <div class="footer-mid">
+            <a href="#home">Home</a>
+            <a href="#profile">Our Profile</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#message">Message Us</a>
+        </div>
+        <div class="footer-right">
+            <a href="https://instagram.com/dhandywjy" target="_blank"><i class="fab fa-instagram"></i>dhandywjy</a>
+            <a href="https://github.com/dhandywjy" target="_blank"><i class="fab fa-github"></i>dhandywjy</a>
+            <a href="https://linkedin.com/in/DhandyWijaya" target="_blank"><i class="fab fa-linkedin"></i>Dhandy Wijaya</a>
+            <a href="https://wa.me/6285695796526" target="_blank"><i class="fas fa-phone"></i>+62 856-9579-6526</a>
+        </div>
+        <div>
+
+        </div>
+     </footer>
+    <script src="./js/script.js"></script>
+    <script src="./js/card.js"></script>
+
+
+</body>
+</html>
