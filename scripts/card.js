@@ -5,37 +5,37 @@ window.onload = function() {
     {
         title : "Landing Page",
         description : "Navbar - Category - Best Selling",
-        image : "../assets/e-commerce/1.png"
+        image : "./assets/e-commerce/1.png"
     },
     {
         title : "Product Catalog",
         description : "Explore Product",
-        image : "../assets/e-commerce/2.png"
+        image : "./assets/e-commerce/2.png"
     },
     {
         title : "Product Catalog",
         description : "Explore Product",
-        image : "../assets/e-commerce/3.png"
+        image : "./assets/e-commerce/3.png"
     },
     {
         title : "Category Button & Footer",
         description : "View Category & Footer",
-        image : "../assets/e-commerce/5.png"
+        image : "./assets/e-commerce/5.png"
     },
     {
         title : "Detail Page",
         description : "Detail Product",
-        image : "./e-commerce/detail2.png"
+        image : "./assets/e-commerce/detail2.png"
     },
     {
         title : "Cart Page",
         description : "Checkout Via WhatsApp",
-        image : "./e-commerce/cart1.png"
+        image : "./assets/e-commerce/cart1.png"
     },
     {
         title : "Checkout Messages",
         description : "automated messages",
-        image : "./e-commerce/wa.png"
+        image : "./assets/e-commerce/wa.png"
     }
   ];
 

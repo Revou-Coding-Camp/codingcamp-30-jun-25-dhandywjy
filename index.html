@@ -9,8 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons&amp;family=Material+Icons+Outlined&amp;family=Material+Icons+Round&amp;family=Material+Icons+Sharp&amp;family=Material+Icons+Two+Tone" rel="stylesheet">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 
-    <link rel="stylesheet" href="../styles/global.css">
-    <script src="../scripts/card.js"></script>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <script src="./scripts/card.js"></script>
+    <script src="./scripts/form.js"></script>
     <title>Portofolio</title>
 </head>
 <body>
@@ -25,6 +27,8 @@
                 <a href="#projects">Projects</a>
                 <a href="#certificate">Certificate</a>
                 <a href="#contact">Contact</a>
+                <a href="#message">Message Us</a>
+                
             </nav>
         </div>
         <a class="hamburger">
@@ -36,7 +40,7 @@
 
     <!-- Hero Section -->
     <section class="section-container" id="home">
-        <img class="logo-hero" src="../assets/dhans/dhans2.jpg" alt="dhans2">
+        <img class="logo-hero" src="./assets/dhans/dhans2.jpg" alt="dhans2">
         <div class="section-title">
             <h1 class="heading">Hi, I'm Dhandy - Frontend Developer</h1>
             <p class="paragraph">
@@ -92,7 +96,7 @@
         </div>
 
         <div class="logo-about-container">
-            <img class="logo-about" src="../assets/dhans/dhans3.jpg" alt="dhans3">
+            <img class="logo-about" src="./assets/dhans/dhans3.jpg" alt="dhans3">
         </div>
     </section>
     <!-- About Me Section -->
@@ -128,18 +132,18 @@
             <div class="file-container">
                 <h3>Please click the button below to download the CV and Certificate.</h3>
                 <div class="file-card">
-                    <a href="../assets/CV - DHANDY WIJAYA.pdf" target="_blank" class="btn-cv">
+                    <a href="./assets/CV - DHANDY WIJAYA.pdf" target="_blank" class="btn-cv">
                         Curriculum Vitae
                         <span class="material-icons-outlined">file_download</span>
                     </a>
-                    <a href="../assets/Certificate DHANDY WIJAYA - CODEPOLITAN.pdf" target="_blank" class="btn-cv">
+                    <a href="./assets/Certificate DHANDY WIJAYA - CODEPOLITAN.pdf" target="_blank" class="btn-cv">
                         Certificate
                         <span class="material-icons-outlined">file_download</span>
                     </a>
                 </div>
             </div>
         </div>
-        <img class="logo-certificate" src="../assets/dhans/Certificate.jpg" alt="logo-certificate">
+        <img class="logo-certificate" src="./assets/dhans/Certificate.jpg" alt="logo-certificate">
     </section>
     <!-- Certificate Section -->
 
@@ -147,7 +151,7 @@
     <section class="section-contact-container" id="contact">
         <h4>MY CONTACT</h4>
         <div class="card-contact-container">
-            <img class="logo-contact" src="../assets/dhans/dhan4.jpg" alt="dhan4">
+            <img class="logo-contact" src="./assets/dhans/dhan4.jpg" alt="dhan4">
             <div class="card-contact">
                 <h1 class="heading-contact1">HELLO EVERYONE, I AM</h1>
                 <h2 class="heading-contact2">DHANDY WIJAYA</h2>
@@ -180,6 +184,29 @@
         </div>
     </section>
     <!-- Contact Section -->
+
+    <!-- Message Us Form -->
+    <section id="message" class="section-form-container">
+        <h4>Form Message</h4>
+        <div class="card-form-container">
+            <form id="contactForm" class="card-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="@revoU" name="name" required />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="@revou@gmail.com" name="email" required />
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="0812xxxxx" name="phone" required />
+
+                <label for="messageContent">Message</label>
+                <textarea id="messageContent" rows="5" name="messageContent" placeholder="write a message" required></textarea>
+
+                <button type="submit" class="btn-form">Submit</button>
+            </form>
+            <div id="submittedData" class="result"></div>
+        </div>
+    </section>
 
     <!-- footer -->
      <footer class="footer-container">
