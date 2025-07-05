@@ -56,4 +56,11 @@ window.onload = function() {
 
     cardContainer.appendChild(card);
   });
+
+  const hamburger = document.querySelector('.hamburger');
+  const navbarLeft = document.querySelector('.navbar-menu');
+
+  hamburger.addEventListener('click', () => {
+    navbarLeft.classList.toggle('active');
+  });
 };
